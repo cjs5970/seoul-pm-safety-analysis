@@ -51,9 +51,9 @@ Google Drive Link: https://drive.google.com/drive/folders/1SD4E_i3LVfp4WcNHgni37
 
 ## 결과물 유의사항
 
-- 본 GitHub 저장소는원본 및 전처리 결과 데이터셋, 전처리 및 분석 주피터 노트북 파일들이 위치해 있으며 주요 결과물 업로드 및 설명(MD)을 작성하기 위한 공간입니다.프로젝트 진행은 [Google Drive](https://drive.google.com/drive/folders/1SD4E_i3LVfp4WcNHgni37XIGH7OtbBKA)를 이용하여 산출물을 통합 관리하였습니다.
+- 본 GitHub 저장소는원본 및 전처리 결과 데이터셋, 전처리 및 분석 주피터 노트북 파일들이 위치해 있으며 주요 결과물 업로드 및 설명(MD)을 작성하기 위한 공간입니다. 프로젝트 진행은 [Google Drive](https://drive.google.com/drive/folders/1SD4E_i3LVfp4WcNHgni37XIGH7OtbBKA)를 이용하여 산출물을 통합 관리하였습니다.
 - 데이터 분석(analysis) 과정에 사용한 데이터셋(`.csv`)들은 모두 `data/data-preprocessing/` 디렉터리에 위치해 있습니다.
-- 데이터 전처리 및 분석 주피터 노트북 파일(.ipynb)들은 개발 환경 및 분석 당시 데이터셋 위치가 팀원별로 상이합니다. 업로드된 파일 그대로 실행하면 에러가 발생할 가능성이 있으므로 **실행 시, 개발 환경(VS-Code / Google Colab) 확인 및 다운로드한 데이터셋을 디렉터리 위치에 맞게 Path를 조정하여 실행하면 정상 실행이 완료됩니다.**
+- 데이터 전처리 및 분석의 주피터 노트북 파일(.ipynb)들은 개발 환경 및 분석 당시 데이터셋 경로(Path)가 팀원별로 상이합니다. 업로드된 파일 그대로 실행하면 데이터셋을 읽어오는 과정에서 경로 없음 에러가 발생하므로, **실행 시 개발 환경(VS-Code / Google Colab) 확인 및 데이터셋을 로컬 디렉터리 위치에 맞게 Path를 조정하여 실행하면 정상 실행이 완료됩니다.**
 
 ----
 ----

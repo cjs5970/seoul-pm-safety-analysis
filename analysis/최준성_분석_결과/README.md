@@ -2,7 +2,7 @@
 
 이 디렉터리는 정제된 공공데이터셋을 바탕으로 핵심 가설 3가지를 수리적·통계적으로 검증하고, 시각화 및 공간 분석을 통해 인사이트를 도출한 분석 공간입니다.
 
-**GitHub 서버 환경에 따라 주피터 노트북(ipynb)의 Preview 기능이 작동하지 않을 수 있습니다. Preview 기능이 작동하지 않는 경우, [NB Viewer](https://nbviewer.org/github/cjs5970/seoul-pm-safety-analysis/tree/main/analysis/%EC%B5%9C%EC%A4%80%EC%84%B1_%EB%B6%84%EC%84%9D%20%EB%B0%8F%20%EA%B2%B0%EA%B3%BC/) 또는 [Google Drive - Colab](https://drive.google.com/drive/folders/1Q9FodB29iolB_f58zRRSltYYj58v5eQp)을 통해 확인해주세요.**
+**GitHub 서버 환경에 따라 주피터 노트북(ipynb)의 Preview 기능이 작동하지 않을 수 있습니다. Preview 기능이 작동하지 않는 경우, [NB Viewer](https://nbviewer.org/github/cjs5970/seoul-pm-safety-analysis/tree/main/analysis/%EC%B5%9C%EC%A4%80%EC%84%B1_%EB%B6%84%EC%84%9D_%EA%B2%B0%EA%B3%BC/) 또는 [Google Drive - Colab](https://drive.google.com/drive/folders/1Q9FodB29iolB_f58zRRSltYYj58v5eQp)을 통해 확인해주세요.**
 
 ## 분석 파일 구성 및 핵심 요약 (Notebooks)
 

@@ -1,6 +1,6 @@
 # 서울시 PM 교통사고 데이터 전처리 방식
 
-이 폴더는 `data/2019.xlsx` ~ `data/2024.xlsx`에 있는 PM 교통사고 데이터를 팀원 전처리 폴더의 CSV 양식에 맞춰 정리한 결과다.
+이 폴더는 `data/original-datasets/교통사고 분석 시스템(TAAS)/2019.xlsx` ~ `2024.xlsx`에 있는 PM 교통사고 데이터를 팀원 전처리 폴더의 CSV 양식에 맞춰 정리한 결과다.
 
 팀원 데이터와 맞추기 위해 공통 키를 다음처럼 통일했다.
 
@@ -15,12 +15,12 @@
 사용한 원본 파일은 다음과 같다.
 
 ```text
-data/2019.xlsx
-data/2020.xlsx
-data/2021.xlsx
-data/2022.xlsx
-data/2023.xlsx
-data/2024.xlsx
+data/original-datasets/교통사고 분석 시스템(TAAS)/2019.xlsx
+data/original-datasets/교통사고 분석 시스템(TAAS)/2020.xlsx
+data/original-datasets/교통사고 분석 시스템(TAAS)/2021.xlsx
+data/original-datasets/교통사고 분석 시스템(TAAS)/2022.xlsx
+data/original-datasets/교통사고 분석 시스템(TAAS)/2023.xlsx
+data/original-datasets/교통사고 분석 시스템(TAAS)/2024.xlsx
 ```
 
 각 파일은 연도별 PM 교통사고 자료이며, 원본에 빈 행이 많이 포함되어 있어 전처리 첫 단계에서 완전히 비어 있는 행을 제거했다.
@@ -73,7 +73,6 @@ PM 규제 기준일은 아직 확정하지 않았으므로 이번 전처리에�
 | `서울시_PM_교통사고_사고단위.csv` | 사고 1건 | 3,346 | PM 사고 개별 사고 단위 정제본 |
 | `서울시_자치구별_월별_PM교통사고.csv` | 자치구-월 | 1,800 | 25개 자치구 x 2019-01~2024-12 월별 패널 |
 | `서울시_자치구별_연도별_PM교통사고.csv` | 자치구-연도 | 150 | 25개 자치구 x 2019~2024 연도별 패널 |
-| `README_PM_교통사고.md` | 문서 | - | 간단한 전처리 설명 |
 | `README.md` | 문서 | - | 현재 파일. 전처리 방식 상세 설명 |
 
 ## 파일별 용도
@@ -142,11 +141,17 @@ PM이 가해자인 사고와 피해자인 사고 비교
 프로젝트 루트에서 다음 명령을 실행하면 같은 양식으로 다시 생성된다.
 
 ```powershell
-python preprocess_pm_team_format.py
+python "data/data-preprocessing/서울시 PM 교통사고 현황/preprocess_pm_v2.py"
+```
+
+또는 이 README가 있는 폴더로 이동한 뒤 다음처럼 실행해도 된다.
+
+```powershell
+python preprocess_pm_v2.py
 ```
 
 생성 위치:
 
 ```text
-processed_data/데이터 전처리/서울시 PM 교통사고 현황/
+data/data-preprocessing/서울시 PM 교통사고 현황/
 ```

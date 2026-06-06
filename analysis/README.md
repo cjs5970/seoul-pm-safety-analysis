@@ -8,6 +8,8 @@
 
 * **`최준성_분석 및 결과/`**: 가설 검증(규제 전후 비교, 코로나 통제 변수, 따릉이 대체 효과) 및  자치구별 공간 시각화 노트북 포함
 * **`서영웅_분석 및 결과/`**: TAAS 교통사고 데이터 기반의 연도별/월별 사고 발생률 및 사고 유형(위반 법규) 시계열 추이 시각화 노트북 포함
+  
+**GitHub 서버 환경에 따라 주피터 노트북(ipynb)의 Preview 기능이 작동하지 않을 수 있습니다. Preview 기능이 작동하지 않는 경우, [NB Viewer](https://nbviewer.org/github/cjs5970/seoul-pm-safety-analysis/tree/main/analysis/) 또는 [Google Drive - Colab](https://drive.google.com/drive/folders/1Q9FodB29iolB_f58zRRSltYYj58v5eQp)을 통해 확인해주세요.**
 
 ----
 ----

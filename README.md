@@ -1,22 +1,22 @@
 # 서울시 공유 자전거 및 PM 안전 규제 영향 분석
 ### **[2026-1학기] 고급프로그래밍설계 01분반 10조 Term Project**
-Google Drive Link: https://drive.google.com/drive/folders/1SD4E_i3LVfp4WcNHgni37XIGH7OtbBKA
+[Google Drive Link(참고용)](https://drive.google.com/drive/folders/1SD4E_i3LVfp4WcNHgni37XIGH7OtbBKA)
 
 ## 프로젝트 주제
-서울시 내 안전 규제 도입이 공유 자전거(따릉이) 및 개인형 이동장치(PM) 이용량과 교통사고 발생 추이에 미치는 영향 분석
+**서울시 내 안전 규제 도입이 공유 자전거(따릉이) 및 개인형 이동장치(PM) 이용량과 교통사고 발생 추이에 미치는 영향 분석**
 
 ## 프로젝트 목적
-최근 몇 년간 PM 및 공유 자전거 관련 법규(안전모 착용 의무화, 불법 주정차 견인 제도 등)가 강화되었습니다. 본 프로젝트는 이러한 규제들이 실제 시민들의 모빌리티 이용 패턴과 사고율 감소에 실효성이 있었는지 데이터에 기반하여 통계적으로 검증하는 것을 목적으로 합니다. 
+최근 몇 년간 서울시의 PM 및 공유 자전거 관련 법규(안전모 착용 의무화, 불법 주정차 견인 제도 등)가 강화되었습니다. 본 프로젝트는 이러한 규제들이 실제 시민들의 모빌리티 이용 패턴과 사고율 감소에 실효성이 있었는지 데이터에 기반하여 통계적으로 검증하는 것을 목적으로 합니다. 
 
 ## 디렉터리 구조
 ```text
 📦 seoul-pm-safety-analysis
 ┣ 📂 data
-┃ ┣ 📂 data-preprocessing   # original-datasets -> 데이터 전처리 수행 과정(ipynb) 및 결과 데이터셋
+┃ ┣ 📂 data-preprocessing   # original-datasets -> 데이터 전처리 수행 과정(ipynb/py) 및 결과 데이터셋
 ┃ ┗ 📂 original-datasets    # 교통사고 분석 시스템(TAAS), 서울시 공공데이터 등에서 수집한 원본 데이터셋 
 ┣ 📂 analysis
-┃ ┣ 📂 서영웅_분석 및 결과   # EDA, 데이터 시각화 및 통계 분석 결과(ipynb) (서영웅)
-┃ ┗ 📂 최준성_분석 및 결과   # EDA, 데이터 시각화 및 통계 분석 결과(ipynb) (최준성)
+┃ ┣ 📂 서영웅_분석_결과   # EDA, 데이터 시각화 및 통계 분석 결과(ipynb) (서영웅)
+┃ ┗ 📂 최준성_분석_결과   # EDA, 데이터 시각화 및 통계 분석 결과(ipynb) (최준성)
 ┗ 📜 README.md
 ```
 
@@ -26,7 +26,7 @@ Google Drive Link: https://drive.google.com/drive/folders/1SD4E_i3LVfp4WcNHgni37
 
 | 이름 | 주요 담당 업무 | GitHub |
 |:---:|:---|:---:|
-| **최준성** | **[데이터 수집 및 전처리]**<br>- 서울시 열린데이터광장 공공데이터 5종 수집 및 파이프라인 구축<br>- 문자열 및 날짜형(datetime) 데이터 병합 시 발생하는 타입 오류 등 원본 데이터 정제, 통합<br><br>**[데이터 분석 및 시각화]**<br>- 가설 1: PM 안전 규제 전후 교통사고 건수 및 치명률 시각화 (Bootstrapping 활용)<br>- 가설 1+: GeoPandas를 활용한 자치구별 공간 시각화 병합 분석<br>- 가설 2: 코로나19 확진자 수와 PM 사고 건수 간의 상관관계(통제 변수) 분석<br>- 가설 3: PM 규제 강화에 따른 공유 자전거(따릉이) 풍선효과(대체 효과) 상관분석<br><br>**[프로젝트 리딩 및 문서화]**<br>- 구글 드라이브 기반 팀 워크스페이스 구축 및 산출물 통합 관리<br>- 프로젝트 과제제안서, 중간/최종 보고서 및 발표용 PPT 초안 기획 및 작성 | [@cjs5970](https://github.com/cjs5970) |
+| **최준성** | **[데이터 수집 및 전처리]**<br>- 서울시 열린데이터광장 공공데이터 5종 수집 및 데이터 정제<br>- 문자열 및 날짜형(datetime) 데이터 병합 시 발생하는 타입 오류 등 원본 데이터 정제, 통합<br><br>**[데이터 분석 및 시각화]**<br>- 가설 1: PM 안전 규제 전후 교통사고 건수 및 치명률 시각화 (Bootstrapping 활용)<br>- 가설 1+: GeoPandas를 활용한 자치구별 공간 시각화 병합 분석 / 가설 1 추가 분석<br>- 가설 2: 코로나19 확진자 수와 PM 사고 건수 간의 상관관계(통제 변수) 분석<br>- 가설 3: PM 규제 강화에 따른 공유 자전거(따릉이) 풍선효과(대체 효과) 상관분석<br><br>**[프로젝트 리딩 및 문서화]**<br>- 구글 드라이브 기반 팀 워크스페이스 구축 및 산출물 통합 관리<br>- 프로젝트 과제제안서, 최종 보고서 및 발표용 PPT 초안 기획 및 작성 | [@cjs5970-Dev](https://github.com/cjs5970) |
 | **서영웅** | **[데이터 전처리]**<br>- TAAS 교통사고 원자료를 기반으로 서울시 PM 교통사고 데이터 정제<br>- PM 사고 단위 데이터, 자치구별 월별 사고 데이터, 연도별 사고 데이터 생성<br><br>**[추가 분석 및 시각화]**<br>- 전체 교통사고 대비 PM 사고 비율 분석<br>- 자치구별 사고 위험도 보정 분석<br>- 규제 직전/직후 단기 사고 변화 분석<br>- 사고유형 및 법규위반별 심화 분석<br>- 따릉이 대체효과를 자치구 단위로 추가 검증<br><br>**[통계적 검정 및 결과 해석]**<br>- 규제 전후 단기 사고 변화에 대한 T-test 수행<br>- 규제 전후 법규위반 유형 분포 변화에 대한 카이제곱 검정 수행<br>- 따릉이 이용량과 PM 사고/견인 변수 간 피어슨 상관분석 수행<br>- 추가 분석 결과의 통계적 유의성 해석 및 보고서 작성 내용 정리 | [@SeoHero-Dev](https://github.com/SeoHero-Dev) |
 
 
@@ -51,42 +51,37 @@ Google Drive Link: https://drive.google.com/drive/folders/1SD4E_i3LVfp4WcNHgni37
 
 ## 결과물 유의사항
 
-- 본 GitHub 저장소는원본 및 전처리 결과 데이터셋, 전처리 및 분석 주피터 노트북 파일들이 위치해 있으며 주요 결과물 업로드 및 설명(MD)을 작성하기 위한 공간입니다. 프로젝트 진행은 [Google Drive](https://drive.google.com/drive/folders/1SD4E_i3LVfp4WcNHgni37XIGH7OtbBKA)를 이용하여 산출물을 통합 관리하였습니다.
+- 본 GitHub 저장소는 원본 및 전처리 결과 데이터셋, 전처리 및 분석 주피터 노트북 파일들이 위치해 있으며 주요 결과물 업로드 및 설명(MD)을 작성하기 위한 공간입니다. 프로젝트 진행은 [Google Drive](https://drive.google.com/drive/folders/1SD4E_i3LVfp4WcNHgni37XIGH7OtbBKA)를 이용하여 산출물을 통합 관리하였습니다.
 - 데이터 분석(analysis) 과정에 사용한 데이터셋(`.csv`)들은 모두 `data/data-preprocessing/` 디렉터리에 위치해 있습니다.
+- **현 GitHub 저장소의 디렉터리 구조를 그대로 유지한 채 clone - 실행(ipynb, py)하여 코드의 정상 동작 여부를 확인할 수 있습니다.**
 
 ----
 ----
 # 부록
 ## 사용한 데이터 Link
-교통사고 분석 시스템(TAAS)
-https://taas.koroad.or.kr/web/shp/mik/main.do?menuId=WEB_KMP
+- [교통사고 분석 시스템(TAAS)](https://taas.koroad.or.kr/web/shp/mik/main.do?menuId=WEB_KMP)
 
 
-서울 열린데이터 광장 - 서울시 공공자전거 따릉이 대여소 정보
-https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do
+- [서울 열린데이터 광장 - 서울시 공공자전거 따릉이 대여소 정보](https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do)
 
 
-서울 열린데이터 광장 - 서울시 자치구별 코로나 확진자, 사망자 현황
-https://data.seoul.go.kr/dataList/OA-20470/F/1/datasetView.do
+- [서울 열린데이터 광장 - 서울시 자치구별 코로나 확진자, 사망자 현황](https://data.seoul.go.kr/dataList/OA-20470/F/1/datasetView.do)
 
 
-서울 열린데이터 광장 - 서울시 전동킥보드 견인 현황
-https://data.seoul.go.kr/dataList/OA-21304/S/1/datasetView.do
+- [서울 열린데이터 광장 - 서울시 전동킥보드 견인 현황](https://data.seoul.go.kr/dataList/OA-21304/S/1/datasetView.do)
 
 
-서울 열린데이터 광장 - 월별 따릉이 이용정보
-https://data.seoul.go.kr/dataList/OA-15248/F/1/datasetView.do
+- [서울 열린데이터 광장 - 월별 따릉이 이용정보](https://data.seoul.go.kr/dataList/OA-15248/F/1/datasetView.do)
 
 
-서울 열린데이터 광장 - 서울시 전동킥보드 주차구역 현황 https://data.seoul.go.kr/dataList/OA-21710/S/1/datasetView.do
+- [서울 열린데이터 광장 - 서울시 전동킥보드 주차구역 현황](https://data.seoul.go.kr/dataList/OA-21710/S/1/datasetView.do)
+  - [공공데이터포털](https://www.data.go.kr/index.do) - 서울시 예산이 아닌 자치구에서 자치구 예산으로 직접 설치한 주차구역을 포함하기 위해, 공공데이터포털에 등록된 서울시 내 11개 자치구의 전동킥보드 주차구역 데이터를 개별 수집하여 병합하였습니다.
 
 
-공공데이터포털 - 질병관리청_사회적 거리두기 시행연혁
-https://www.data.go.kr/data/15106451/fileData.do
+- [공공데이터포털 - 질병관리청_사회적 거리두기 시행연혁](https://www.data.go.kr/data/15106451/fileData.do)
 
 
-Github - hangjeongdong_서울특별시.geojson (aqoon886)
-https://github.com/raqoon886/Local_HangJeongDong/blob/master/hangjeongdong_%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C.geojson
+- [Github - hangjeongdong_서울특별시.geojson (aqoon886)](https://github.com/raqoon886/Local_HangJeongDong/blob/master/hangjeongdong_%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C.geojson)
 
 
 ----

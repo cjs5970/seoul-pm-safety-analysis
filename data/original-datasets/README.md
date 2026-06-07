@@ -17,5 +17,6 @@
   * https://data.seoul.go.kr/dataList/OA-21304/S/1/datasetView.do
 * 서울시 전동킥보드 주차구역 현황
   * https://data.seoul.go.kr/dataList/OA-21710/S/1/datasetView.do
+  * https://www.data.go.kr/index.do (공공데이터포털에 등록된 서울시 내 11개 자치구의 전동킥보드 주차구역 데이터 개별 수집)
 * 월별 따릉이 이용정보
   * https://data.seoul.go.kr/dataList/OA-15248/F/1/datasetView.do

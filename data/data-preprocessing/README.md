@@ -3,7 +3,7 @@
 이 디렉터리는 `original-datasets` 폴더에 위치한 공공데이터 원본 파일들을 실제 탐색적 데이터 분석(EDA)과 각 가설 검증에 적합한 데이터프레임 형태로 가공 및 정제하는 공간입니다.
 
 
-**GitHub 서버 환경에 따라 주피터 노트북(ipynb)의 Preview 기능이 작동하지 않을 수 있습니다. Preview 기능이 작동하지 않는 경우, [NB Viewer](https://nbviewer.org/github/cjs5970/seoul-pm-safety-analysis/tree/main/data/data-preprocessing/) 또는 [Google Drive - Colab](https://drive.google.com/drive/folders/1K__102DT81Wr0Peg0rQRVxLashrdVvYs?usp=drive_link)을 통해 확인해주세요.**
+**GitHub 서버 환경에 따라 주피터 노트북(ipynb)의 Preview 기능이 작동하지 않을 수 있습니다. Preview 기능이 작동하지 않는 경우, [NB Viewer](https://nbviewer.org/github/cjs5970/seoul-pm-safety-analysis/tree/main/data/data-preprocessing/) 또는 [Google Drive](https://drive.google.com/drive/folders/1K__102DT81Wr0Peg0rQRVxLashrdVvYs?usp=drive_link) - colab을 통해 확인해주세요.**
 
 ## 주요 전처리 작업 내용 (Key Processes)
 
